@@ -1,0 +1,36 @@
+/* .links path {
+    stroke: #4D5DB9;
+    stroke-opacity: 0.6;
+    fill: none;
+    marker-end: url(#arrow);
+} */
+
+.nodes path {
+    stroke-width: 4px;
+    cursor: pointer;
+}
+
+text {
+    /* fill: #FFFFFF; */
+    font-family: Arial;
+    font-size: 48px;
+    /* horizontal */
+    text-anchor: middle;
+    /* vertical */
+    /* dominant-baseline: central; */
+    cursor: pointer;
+}
+
+div.tooltip {
+    color: #151515;
+    background-color: #8fb3de;
+    fill: #8fb3de;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+html, body { margin:0; padding:0; overflow:hidden }
+.svg { position:fixed; top:0; left:0; height:200%; width:200% }
